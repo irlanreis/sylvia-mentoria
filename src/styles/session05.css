@@ -1,0 +1,67 @@
+@import './Global.css';
+
+.container-session05 {
+  background: var(--lilas);
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding: 4rem 1rem;
+}
+
+.title-session05 {
+  font-size: var(--size-xl);
+  font-family: var(--font-title);
+  font-weight: 50;
+  padding: 2rem 0;
+  color: white;
+  width: 100%;
+}
+
+.list-session05 {
+  list-style-type: circle;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-session05 li {
+  list-style-type: none;
+  font-size: var(--size-md);
+  font-family: var(--font-text);
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid var(--off-white);
+  padding: 1rem 0.5rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 96%;
+}
+
+.checked path {
+  color: var(--btn-green);
+}
+
+
+@media (min-width: 768px) {
+  .container-session05 {
+    padding: 4rem 2rem;
+  }
+
+  .title-session05 {
+    font-size: var(--size-3xl);
+  }
+
+  .list-session05 {
+    gap: 20px;
+    width: 90%;
+  }
+
+  .list-session05 li {
+    gap: 10px;
+    border-bottom: none;
+    padding: 1rem 0;
+  }
+}

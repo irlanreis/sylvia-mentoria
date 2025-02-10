@@ -1,0 +1,44 @@
+@import './Global.css';
+
+.container-session04 {
+  background: var(--gray);
+  text-align: center;
+  color: var(--off-white);
+  margin: auto;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.list-session04 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.list-session04 li {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 20px;
+  font-size: var(--size-SM);
+  margin: 1rem 0;
+  width: 90%;
+  font-family: var(--font-text);
+}
+
+.icon-session04 {
+  font-size: var(--size-md);
+  color: var(--off-white);
+  border: 1px solid var(--off-white);
+  border-radius: 50%;
+  width: 90px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media 

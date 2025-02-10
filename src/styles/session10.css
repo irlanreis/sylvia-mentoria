@@ -1,0 +1,54 @@
+@import './Global.css';
+
+.container-session10 {
+  background: var(--gray);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.title-session10 {
+  font-size: var(--size-2xl);
+  font-family: var(--font-title);
+  font-weight: 50;
+  color: var(--off-white);
+  margin-bottom: 1rem;
+}
+
+.testimonial-session10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testemonion {
+  width: 360px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.text-session10 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (min-width: 764px) {
+  .container-session10 {
+    padding: 2rem 0;
+  }
+
+// faça um grid de imagens
+  .testimonial-session10 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .testemonion {
+    margin-right: 1rem;
+  }
+
+  .text-session10 {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,45 @@
+@import "./Global.css";
+
+.footer-session13 {
+  text-align: center;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+  background-color: var(--gray);
+  color: var(--off-white);
+  font-size: var(--size-xs);
+  font-family: var(--font-text);
+}
+
+@media (min-width: 768px) {
+  .footer-session13 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    background-color: var(--gray);
+    color: var(--off-white);
+    font-size: var(--size-sm);
+    font-family: var(--font-text);
+    gap: 10px;
+  }
+}
+
+@media (min-width: 1024) {
+  .footer-session13 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    background-color: var(--gray);
+    color: var(--off-white);
+    font-size: var(--size-xs);
+    font-family: var(--font-text);
+    font-weight: 300;
+    gap: 10px;
+  }
+}

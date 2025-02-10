@@ -1,0 +1,104 @@
+.container-session09 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 4rem 0;
+  background-color: var(--gray);
+}
+
+.title-session09 {
+  font-size: var(--size-xl);
+  font-family: var(--font-title);
+  color: var(--off-white);
+  text-align: center;
+  color: var(--off-white);
+}
+
+.faq-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.faq-item {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  font-size: var(--size-sm);
+  font-family: var(--font-text);
+  letter-spacing: -0.4px;
+  color: white;
+  padding: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: var(--lilas);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.faq-question:hover {
+  background-color: var(--light-lilas);
+  color: var(--roxo);
+}
+
+.faq-answer {
+  font-size: var(--size-sm);
+  font-family: var(--font-text);
+  text-align: left;
+  color: var(--roxo);
+  padding: 16px;
+  margin-top: 10px;
+  background-color: var(--off-white);
+  border-radius: 8px;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.faq-item.open .faq-answer {
+  max-height: 368px;
+  opacity: 1;
+}
+
+.footer-session09 {
+  text-align: center;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+  background-color: var(--gray);
+  color: var(--off-white);
+  font-size: var(--size-xs);
+  font-family: var(--font-text);
+}
+
+.btn-session09 {
+  background-color: var(--btn-green);
+  font-size: var(--size-md);
+  font-family: var(--font-text);
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  padding: 0.8rem 1.5rem;
+  color: var(--off-white);
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+.btn-session09:hover {
+  background-color: var(--palha);
+  color: var(--green);
+  border: 2px solid var(--green);
+}
+

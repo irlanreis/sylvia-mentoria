@@ -1,0 +1,91 @@
+@import './Global.css';
+
+.container-session06 {
+  background: var(--palha);
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+
+.title-session06 {
+  font-size: var(--size-xl);
+  font-family: var(--font-title);
+  font-weight: 50;
+  padding: 1rem;
+}
+
+.list-session06 {
+  list-style-type: circle;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border: 2px solid var(--roxo);
+  border-radius: 10px;
+}
+
+.list-session06 li {
+  list-style-type: none;
+  font-size: var(--size-md);
+  font-family: var(--font-text);
+  text-align: left;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.checked path {
+  color: var(--btn-green);
+}
+
+.container-session06-text p {
+  font-size: var(--size-lg);
+  font-family: var(--font-text);
+  font-weight: 400;
+  color: var(--roxo);
+  text-align: center;
+  padding: 0.5rem;
+  gap: 1rem;
+  line-height: 1;
+  width: 100%;
+}
+
+.btn-session06 {
+  background: var(--btn-green);
+  color: var(--off-white);
+  font-size: var(--size-lg);
+  font-family: var(--font-text);
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .title-session06 {
+    font-size: var(--size-3xl);
+    width: 80%;
+  }
+
+  .list-session06 {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .list-session06 li {
+    font-size: var(--size-lg);
+  }
+
+  .container-session06-text p {
+    font-size: var(--size-xl);
+  }
+
+  .btn-session06 {
+    font-size: var(--size-xl);
+  }
+}

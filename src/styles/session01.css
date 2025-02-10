@@ -1,0 +1,126 @@
+@import "./Global.css";
+
+.card-session01 {
+  background-image: url("../assets/session01.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  color: var(--off-white);
+  padding: 6rem 1rem 2rem;
+  gap: 30px;
+  height: 100vh;
+}
+
+.logo {
+  width: 360px;
+}
+
+.content-session01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.content-session01 h1 {
+  font-size: var(--size-xl);
+  font-family: var(--font-title);
+  font-weight: 50;
+  line-height: 1;
+  width: 100%;
+  max-width: 480px;
+  padding: 16px;
+}
+
+.content-session01 p {
+  font-size: var(--size-sm);
+  font-family: var(--font-text);
+  max-width: 340px;
+}
+
+.list-container-session01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  list-style: none;
+  max-width: 480px;
+  padding: 10px 10px 0;
+}
+
+.list-container-session01 li {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  line-height: 1.2;
+  font-size: var(--size-sm);
+  font-family: var(--font-text);
+  padding-bottom: 10px;
+  gap: 10px;
+}
+
+.button-session01 {
+  background-color: #0a9c25;
+  color: white;
+  font-size: var(--size-md);
+  font-weight: bold;
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  margin: 15px 0;
+}
+
+.button-session01:hover {
+  background-color: var(--btn-green);
+  color: var(--roxo);
+}
+
+.warnings-session01 {
+  background-color: var(--palha);
+  color: var(--roxo);
+  border-radius: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.warning-icon {
+  font-size: var(--size-md);
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .content-session01 {
+    gap: 50px;
+  }
+
+  .content-session01 h1 {
+    font-size: var(--size-2xl);
+    max-width: 780px;
+  }
+
+  .content-session01 p {
+    font-size: var(--size-md);
+  }
+
+  .list-container-session01 {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .list-container-session01 li {
+    font-size: var(--size-md);
+  }
+
+  .button-session01 {
+    font-size: 18px;
+  }
+}

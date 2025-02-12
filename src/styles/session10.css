@@ -90,7 +90,7 @@
   }
 
   .slick-track {
-    height: 50vh;
+    height: 100vh;
   }
 
   .card-img {
@@ -114,5 +114,20 @@
 
   .text-session10 {
     font-size: 1.2rem;
+  }
+
+  .card {
+    display: flex;
+  }
+
+  .slider-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .card-img {
+    width: 480px;
+    height: 520px;
   }
 }

@@ -63,7 +63,6 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  width: 40%;
   max-width: 300px;
   margin: 15px 0;
   text-decoration: none;
@@ -112,12 +111,12 @@
     padding: 2rem 1rem;
     border: none;
     justify-content: center;
-    gap: 20px;
     border: 2px solid var(--off-white);
   }
 
   .list-session06 li {
-    font-size: var(--size-sm);
+    font-size: var(--size-xs);
+    gap: 0px;
     color: var(--palha);
   }
 

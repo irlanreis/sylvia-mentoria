@@ -97,7 +97,7 @@
     gap: 10px;
     border-bottom: none;
     padding: 1rem 0;
-    font-size: var(--size-sm);
+    font-size: var(--size-xs);
     flex-direction: row;
     padding: 8px;
     width: 100%;

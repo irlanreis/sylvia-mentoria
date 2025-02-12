@@ -22,7 +22,7 @@ const Session12 = () => {
         href="https://pay.hub.la/GC1ClKWRPjcY9HfX4aik"
         target="_blank"
       >
-        Quero participar
+        QUERO PARTICIPAR
       </a>
       <p className="final-text-session12">Te espero lá dentro 😊</p>
     </div>

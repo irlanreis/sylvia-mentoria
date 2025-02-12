@@ -14,7 +14,7 @@ const Session05Main = () => {
           Transforme sua prática clínica com <strong className="destaque">8 encontros on-line</strong>, suporte da sua
           mentora <strong className="destaque">durante 4 meses</strong> e acesso à comunidade <strong className="destaque">diariamente!</strong>
         </p>
-        <a className="btn-session05Main" href="https://pay.hub.la/GC1ClKWRPjcY9HfX4aik" target="_blank">Inscrever-se!</a>
+        <a className="btn-session05Main" href="https://pay.hub.la/GC1ClKWRPjcY9HfX4aik" target="_blank">INSCREVER-SE!</a>
       </div>
     </div>
   )

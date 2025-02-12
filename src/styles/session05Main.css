@@ -1,0 +1,60 @@
+@import "./Global.css";
+
+.container-session05Main {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-session05Main-container {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .container-session05Main {
+    background-image: url("../assets/backgrounds-mentoria/2.jpg");
+    padding: 4rem 2rem;
+    height: 105vh;
+  }
+
+  .content-session05Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .text-session05Main-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: var(--size-sm);
+    font-family: var(--font-text);
+    color: white;
+  }
+
+  .text-session05Main-container p {
+    text-align: center;
+    font-size: var(--size-lg);
+    max-width: 68%;
+  }
+
+  .btn-session05Main {
+    background: var(--btn-green);
+    color: var(--off-white);
+    font-size: var(--size-md);
+    font-family: var(--font-text);
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    max-width: 30%;
+  }
+
+  .destaque {
+    color: var(--palha);
+  }
+}

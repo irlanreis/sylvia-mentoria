@@ -51,14 +51,11 @@ const Session09 = () => {
       }
       <a
         className=" btn-session09"
-        href="https://pay.hub.la/kUnf7nnTbBbsiegg5Oi4"
+        href="https://pay.hub.la/GC1ClKWRPjcY9HfX4aik"
         target="_blank"
       >
         Quero participar
       </a>
-      {/* <div className="footer-session08 ">
-        <p>Dra. Sylvia Christine - SCPM DIGITAL LTDA | CNPJ:  59.167.404/0001-17</p>
-      </div> */}
     </div>
   );
 };

@@ -36,7 +36,7 @@
   font-size: var(--size-md);
   margin-bottom: 1.5rem;
   font-family: var(--font-text);
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .list-session08 {
@@ -54,7 +54,7 @@
 .list-session08 li {
   display: flex;
   gap: 10px;
-  font-size: var(--size-md);
+  font-size: var(--size-sm);
   font-family: var(--font-text);
   margin: 0.5rem 0;
 }
@@ -70,6 +70,7 @@
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
 .cta-session08:hover {

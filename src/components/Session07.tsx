@@ -15,9 +15,9 @@ const Session07 = () => {
       <span className="cash-price-session07">
       ou R$ 9.997,00 à vista
       </span>
-      <div className="discount-session07">
+      <a className="discount-session07" href="https://pay.hub.la/GC1ClKWRPjcY9HfX4aik" target="_blank">
         Aproveite os <strong>40% OFF</strong>
-      </div>
+      </a>
       <div className="payment-methods-session07">
         <p className="exclusive-session07">Exclusivo para a primeira turma <strong>Vagas limitadas!</strong></p>
         <p className="limited-session07"></p>

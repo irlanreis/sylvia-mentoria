@@ -14,6 +14,10 @@ import img12 from "../assets/depoimentos/12.jpg";
 import img13 from "../assets/depoimentos/13.jpg";
 import img14 from "../assets/depoimentos/14.jpg";
 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const Session10 = () => {
   const allImgs = [
     img,
@@ -32,13 +36,28 @@ const Session10 = () => {
     img14,
   ];
 
+  const settings = {
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
+
   return (
     <div className="container-session10">
       <h2 className="title-session10">O que nossos alunos dizem</h2>
-      <div className="testimonial-session10">
-        {allImgs.map((item, index) => (
-          <img src={item} key={index} className="testemonion" />
-        ))}
+      <div className="slider-container">
+        <Slider {...settings} className="slider">
+          {allImgs.map((img, index) => (
+            <div key={index} className="card">
+              <div className="card-img">
+                <img src={img} alt="depoimento" />
+              </div>
+            </div>
+          ))}
+        </Slider>
       </div>
     </div>
   );

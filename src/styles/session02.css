@@ -103,3 +103,48 @@
     font-size: var(--size-md);
   }
 }
+
+@media (min-width: 1024px) {
+  .container-session02 {
+    background-image: url("../assets/backgrounds-mentoria/2.jpg");
+    padding: 4rem 0;
+  }
+
+  .card-session02 {
+    padding: 60px;
+  }
+
+  .title-session02 {
+    font-size: var(--size-3xl);
+  }
+
+  .article-session02 {
+    font-size: var(--size-sm);
+    max-width: 80%;
+  }
+
+  .subtitle-session02 {
+    font-size: var(--size-xl);
+    max-width: 40%;
+  }
+
+  .list-session02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    background-color: var(--green);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .list-session02 li {
+    font-size: max(1rem, 1vw);
+
+  }
+
+  .list-session02 path {
+    fill: var(--off-white);
+  }
+}

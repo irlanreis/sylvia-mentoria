@@ -61,3 +61,32 @@
     border-bottom: 1px solid var(--off-white);
   }
 }
+
+@media (min-width: 1024px) {
+  .container-session11 {
+    background-image: url("../assets/backgrounds-mentoria/7.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+
+  .content-session11 {
+    margin: 0;
+    background: none;
+    width: 70%;
+    gap: 20px;
+  }
+
+  .content-session11 h2 {
+    font-size: var(--size-3xl);
+  }
+
+  .content-session11 p {
+    font-size: var(--size-sm);
+    width: 90%;
+    max-width: 740px;
+    border: none;
+    text-align: left;
+  }
+}

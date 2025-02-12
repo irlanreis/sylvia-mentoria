@@ -1,5 +1,5 @@
 import "../styles/session06.css";
-import DoneAllIcon from '@mui/icons-material/DoneAll';
+import CheckCircleSharpIcon from '@mui/icons-material/CheckCircleSharp';
 
 const Session06 = () => {
   const textMentoria = [
@@ -26,7 +26,7 @@ const Session06 = () => {
       <ul className="list-session06">
         {textMentoria.map((item, index) => (
           <li key={index}>
-            <DoneAllIcon className="checked" fontSize="large" />
+            <CheckCircleSharpIcon className="checked" fontSize="large" />
             {item.text}
           </li>
         ))}
@@ -39,7 +39,7 @@ const Session06 = () => {
         </p>
       </div>
 
-        <button className="button-session01">Inscrever-se!</button>
+        <a className="btn-session06" href="https://pay.hub.la/GC1ClKWRPjcY9HfX4aik" target="_blank">Inscrever-se!</a>
     </div>
   );
 };

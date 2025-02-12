@@ -18,14 +18,15 @@
   font-weight: normal;
   line-height: 1;
   margin-bottom: 1rem;
-  width: 80%;
 }
 
 .header-session08-container {
   display: flex;
-  aling-items: center;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-bottom: 1.5rem;
+  padding: 0 2rem;
+  gap: 20px;
 }
 
 .checkIcon {
@@ -49,6 +50,9 @@
   text-align: left;
   list-style: none;
   width: 90%;
+  border: 2px solid var(--light-lilas);
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 .list-session08 li {
@@ -88,7 +92,7 @@
 
   .title-session08 {
     font-size: var(--size-4xl);
-    width: 60%;
+    width: 80%;
     color: var(--light-lilas)
   }
 
@@ -112,6 +116,7 @@
 @media (min-width: 1024px) {
   .container-session08  {
     background-image: url("../assets/backgrounds-mentoria/6.jpg");
+    background-repeat: no-repeat;
     align-items: flex-start;
     background-position: top;
   }
@@ -125,7 +130,7 @@
   }
 
   .title-session08 {
-    width: 80%;
+    width: 90%;
     color: var(--light-lilas);
   }
 

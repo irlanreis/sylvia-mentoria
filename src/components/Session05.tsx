@@ -22,7 +22,7 @@ const Session05 = () => {
 
   return (
     <div className="container-session05">
-      <h2 className="title-session05">Como vai funcionar?</h2>
+      <h2 className="title-session06">Como vai funcionar?</h2>
       <span className="ligth-effect">
       <ul className="list-session05">
         {textMentoria.map((item, index) => (

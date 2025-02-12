@@ -13,7 +13,7 @@
   .container-session05Main {
     background-image: url("../assets/backgrounds-mentoria/2.jpg");
     padding: 4rem 2rem;
-    height: 135vh;
+    gap: 2rem;
   }
 
   .content-session05Main {

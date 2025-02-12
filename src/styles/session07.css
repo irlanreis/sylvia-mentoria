@@ -95,7 +95,12 @@
   }
 
   .special-price-session07 {
-    font-size: var(--size-4xl);
+    font-size: var(--size-5xl);
+    font-weight: 600;
+  }
+
+  .old-value {
+    font-size: var(--size-lg)
   }
 
   .cash-price-session07 {

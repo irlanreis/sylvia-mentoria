@@ -73,29 +73,69 @@
   text-decoration: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) {  
   .container-session08 {
+    background-image: url("../assets/backgrounds-mentoria/5.jpg");
     gap: 4rem;
   }
 
+  .header-session08-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
   .title-session08 {
-    font-size: var(--size-3xl);
-    width: 100%;
+    font-size: var(--size-4xl);
+    width: 60%;
+    color: var(--light-lilas)
   }
 
   .description-session08 {
     font-size: var(--size-lg);
-    width: 80%;
+    width: 70%;
   }
 
   .list-session08 {
     width: 60%;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
     border: 2px solid var(--light-lilas);
   }
 
   .cta-session08 {
     padding: 1rem 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-session08  {
+    background-image: url("../assets/backgrounds-mentoria/6.jpg");
+    align-items: flex-start;
+    background-position: top;
+  }
+
+  .header-session08-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 60%;
+  }
+
+  .title-session08 {
+    width: 80%;
+    color: var(--light-lilas);
+  }
+
+  .description-session08 {
+    font-size: var(--size-md)
+  }
+
+
+  .list-session08 {
+    width: 80%;
+    max-width: 600px;
   }
 }

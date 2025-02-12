@@ -1,118 +1,79 @@
-@import './Global.css';
+@import "./Global.css";
 
+/* Container principal */
 .container-session10 {
-  background: var(--gray);
+  width: 100%;
+  margin: auto;
+  padding: 40px 20px;
   text-align: center;
-  padding: 2rem 2rem;
-  background-image: url("../assets/backgrounds-mentoria/5.jpg");
+  background-image: url("../assets/backgrounds-mentoria/4.jpg");
 }
 
+/* Título */
 .title-session10 {
   font-size: var(--size-2xl);
   font-family: var(--font-title);
-  font-weight: 50;
-  color: var(--off-white);
-  margin-bottom: 1rem;
+  font-weight: 100;
+  margin-bottom: 20px;
+  color: var(--lilas);
 }
 
-.testimonial-session10 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.text-session10 {
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
+/* Container do slider */
 .slider-container {
-  margin: 0 auto;
-  width: 100%;
-  border-color: white;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px 0;
 }
 
-.card-img {
-  width: 300px;
-  object-fit: cover;
-  aspect-ratio: 1/1;
-  outline-color: red;
-  display: inline-block;
+/* Slick slider ajustes */
+.slick-slide {
+  display: flex !important; /* Garante que os elementos sejam flexíveis */
+  justify-content: center; /* Centraliza os itens */
+  align-items: center; /* Alinha verticalmente */
 }
 
+.slick-list {
+  margin: 0 -10px; /* Remove o espaço adicional ao redor dos itens */
+}
+
+/* Card */
+.card {
+  padding: 10px;
+  box-sizing: border-box; /* Inclui padding no cálculo da largura */
+}
+
+/* Imagens dentro do card */
 .card-img img {
-  display: flex;
-  margin: 0 auto;
-  height: 40vh;
-  object-fit: contain;
   width: 100%;
-  height: 100%;
+  height: auto;
+  border-radius: 8px; /* Cantos arredondados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra suave */
+  transition: transform 0.3s ease;
 }
 
-.slick-dots {
-  background-color: var(--off-white);
+/* Efeito de hover nas imagens */
+.card-img img:hover {
+  transform: scale(1.05); /* Zoom suave */
 }
 
-.slick-track {
-  height: 45vh;
-}
-
-@media (min-width: 764px) {
-  .container-session10 {
-    padding: 2rem 0;
+/* Ajustes para diferentes resoluções */
+@media (max-width: 1024px) {
+  .slider-container {
+    padding: 10px 0;
   }
 
   .title-session10 {
-    padding: 2rem 0;
-  }
-
-  .testimonial-session10 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    aling-self: center;
-    gap: 1rem;
-  }
-
-  .testemonion {
-    margin-right: 1rem;
-  }
-
-  .text-session10 {
-    font-size: 1.2rem;
-  }
-
-  .slick-track {
-    height: 50vh;
-  }
-
-  .card-img {
-    width: 480px;
+    font-size: var(--size-3xl);
   }
 }
 
-@media (min-width: 1024px) {
-  .container-session10 {
+@media (max-width: 600px) {
+  .title-session10 {
+    font-size: var(--size-2xl);
   }
 
-  .testimonial-session10 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    
-  }
-
-  .testemonion {
-    background-color: var(--off-white);
-  }
-
-  .text-session10 {
-    font-size: 1.2rem;
+  .card {
+    padding: 5px;
   }
 }

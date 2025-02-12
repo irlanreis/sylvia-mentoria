@@ -38,11 +38,38 @@ const Session10 = () => {
 
   const settings = {
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3, // Exibe 3 imagens no desktop
     slidesToScroll: 1,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 3000,
+    dots: true,
+
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3, // Configuração para telas de 1024px ou mais
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2, // Exibe 2 imagens em telas menores
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1, // Apenas 1 imagem no mobile
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (

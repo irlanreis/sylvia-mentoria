@@ -5,12 +5,13 @@
   flex-direction: column;
   gap: 1.5rem;
   padding: 4rem 0;
-  background-color: var(--gray);
+  background-image: url("../assets/backgrounds-mentoria/2.jpg");
 }
 
 .title-session09 {
-  font-size: var(--size-xl);
+  font-size: var(--size-3xl);
   font-family: var(--font-title);
+  font-weight: 100;
   color: var(--off-white);
   text-align: center;
   color: var(--off-white);

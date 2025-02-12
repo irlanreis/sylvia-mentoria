@@ -66,6 +66,7 @@
   .container-session11 {
     background-image: url("../assets/backgrounds-mentoria/7.jpg");
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: flex-start;
     height: 100vh;

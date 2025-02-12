@@ -33,7 +33,7 @@ const Session08 = () => {
             {item.text}</li>
         ))}
       </ul>
-      <button className="cta-session08 ">Inscrever-se agora</button>
+      <a className="cta-session08 " href="https://pay.hub.la/GC1ClKWRPjcY9HfX4aik" target="_blank">Inscrever-se agora</a>
     </div>
   );
 };

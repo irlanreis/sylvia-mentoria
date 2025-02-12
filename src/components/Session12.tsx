@@ -17,6 +17,13 @@ const Session12 = () => {
         pedir reembolso do valor integral do seu investimento nos primeiros 7
         dias. Mas fique tranquilo! Temos certeza que você vai gostar!
       </p>
+      <a
+        className=" btn-session09"
+        href="https://pay.hub.la/GC1ClKWRPjcY9HfX4aik"
+        target="_blank"
+      >
+        Quero participar
+      </a>
       <p className="final-text-session12">Te espero lá dentro 😊</p>
     </div>
   );

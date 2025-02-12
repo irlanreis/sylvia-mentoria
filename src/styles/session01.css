@@ -50,7 +50,6 @@
   justify-content: center;
   align-items: left;
   list-style: none;
-  max-width: 480px;
   padding: 10px 10px 0;
 }
 
@@ -77,6 +76,8 @@
   width: 100%;
   max-width: 200px;
   margin: 15px 0;
+  text-decoration: none;
+  text-align: center;
 }
 
 .button-session01:hover {
@@ -118,9 +119,66 @@
 
   .list-container-session01 li {
     font-size: var(--size-md);
+    width: 100%;
+  }
+
+  .warnings-session01 {
+    width: 600px;
+    max-width: 80%;
   }
 
   .button-session01 {
     font-size: 18px;
   }
 }
+
+@media (min-width: 1024px) {
+  .card-session01 {
+    background-image: url("../assets/backgrounds-mentoria/1.jpg");
+    color: var(--off-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10px;
+  }
+  
+  .content-session01 {
+    gap: 30px;
+  }
+  
+  .content-session01 h1 {
+    font-size: var(--size-2xl);
+    font-weight: normal;
+    color: var(--off-white);
+    line-height: 1;
+  }
+  
+  .content-session01 p {
+    font-size: max(1.2rem, 1.5vw);
+    color: var(--off-white);
+    margin-bottom: 30px;
+    line-height: 1.2;
+    max-width: 600px;
+  }
+  
+  .warnings-session01 {
+    background: var(--palha);
+    border-radius: 8px;
+  }
+  
+  .list-container-session01 li {
+    display: flex;
+    align-items: center;
+    font-size: max(1.2rem, 1vw);
+    color: var(--roxo);
+    font-weight: normal;
+  }
+  
+  .list-container-session01 li svg {
+    color: #cc8f4f;
+    margin-right: 10px;
+  }  
+}
+

@@ -29,7 +29,7 @@ Html, body {
 
 
   --size-xs: max(0.75rem, 1vw);
-  --size-sm: max(1rem, 1.4vw);
+  --size-sm: max(1rem, 1.1vw);
   --size-md: max(1.2rem, 1.6vw);
   --size-lg: max(1.8rem, 2.2vw);
   --size-xl: max(2.2rem, 2.8vw);

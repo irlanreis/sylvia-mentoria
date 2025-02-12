@@ -19,7 +19,7 @@ const Session03 = () => {
       text: "Profissionais recém-formados que precisam de suporte para atender com mais segurança.",
     },
     {
-      text: "Médicos que atuam no Brasil, mas que fizeram faculdade em outro país e que sentem a necessidade de se adequar a realidade do SUS",
+      text: "Médicos que atuam no Brasil, mas que fizeram faculdade em outro país e que sentem a necessidade de se adequar à realidade do SUS.",
     },
     {
       text: "Médicos que atuam em Unidade de Atenção Primária à Saúde e que almejam uma comunidade para discutir casos clínicos ou situações da APS.",
@@ -28,10 +28,10 @@ const Session03 = () => {
       text: "Aqueles profissionais que querem uma preceptoria à distância.",
     },
     {
-      text: "Profissionais que querem transformar a prática clínica exercendo uma medicina mais qualificada e humanizada",
+      text: "Profissionais que querem transformar a prática clínica exercendo uma medicina mais qualificada e humanizada.",
     },
     {
-      text: "Médicos da APS que desejam exercer uma medicina baseada em evidências..",
+      text: "Médicos da APS que desejam exercer uma medicina baseada em evidências.",
     },
   ];
 
@@ -41,8 +41,15 @@ const Session03 = () => {
       <ul className="list-session03">
         {textMentoria.map((item, index) => (
           <li key={index}>
-            <CheckCircleOutlineIcon className="checked" fontSize="large"/>
-            {item.text}
+            <CheckCircleOutlineIcon className="checked" fontSize="large" />
+            <span className="text-session03"
+              dangerouslySetInnerHTML={{
+                __html: item.text.replace(
+                  /(Médicos atuantes na Atenção Primária|reduzir a sobrecarga|papel de mero encaminhador|método estruturado|recém-formados|faculdade em outro país|Unidade de Atenção Primária à Saúde|profissionais que querem uma preceptoria à distância|transformar a prática clínica|exercer uma medicina baseada em evidências)/g,
+                  "<strong>$1</strong>"
+                ),
+              }}
+            />
           </li>
         ))}
       </ul>

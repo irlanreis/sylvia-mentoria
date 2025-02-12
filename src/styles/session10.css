@@ -3,7 +3,8 @@
 .container-session10 {
   background: var(--gray);
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2rem 2rem;
+  background-image: url("../assets/backgrounds-mentoria/5.jpg");
 }
 
 .title-session10 {
@@ -18,12 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.testemonion {
-  width: 360px;
-  border-radius: 10px;
-  margin-bottom: 1rem;
+  justify-content: center;
 }
 
 .text-session10 {
@@ -32,20 +28,88 @@
   text-align: center;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-container {
+  margin: 0 auto;
+  width: 100%;
+  border-color: white;
+}
+
+.card-img {
+  width: 300px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  outline-color: red;
+  display: inline-block;
+}
+
+.card-img img {
+  display: flex;
+  margin: 0 auto;
+  height: 40vh;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.slick-dots {
+  background-color: var(--off-white);
+}
+
+.slick-track {
+  height: 45vh;
+}
+
 @media (min-width: 764px) {
   .container-session10 {
     padding: 2rem 0;
   }
 
-// faça um grid de imagens
+  .title-session10 {
+    padding: 2rem 0;
+  }
+
   .testimonial-session10 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    aling-self: center;
     gap: 1rem;
   }
 
   .testemonion {
     margin-right: 1rem;
+  }
+
+  .text-session10 {
+    font-size: 1.2rem;
+  }
+
+  .slick-track {
+    height: 50vh;
+  }
+
+  .card-img {
+    width: 480px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-session10 {
+  }
+
+  .testimonial-session10 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+  }
+
+  .testemonion {
+    background-color: var(--off-white);
   }
 
   .text-session10 {

@@ -13,7 +13,7 @@
   .container-session05Main {
     background-image: url("../assets/backgrounds-mentoria/2.jpg");
     padding: 4rem 2rem;
-    height: 120vh;
+    height: 135vh;
   }
 
   .content-session05Main {
@@ -29,7 +29,7 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     font-size: var(--size-sm);
     font-family: var(--font-text);
     color: white;
@@ -38,7 +38,7 @@
   .text-session05Main-container p {
     text-align: center;
     font-size: var(--size-md);
-    max-width: 50%;
+    max-width: 80%;
   }
 
   .btn-session05Main {

@@ -9,8 +9,9 @@
 }
 
 .title-session09 {
-  font-size: var(--size-xl);
+  font-size: var(--size-3xl);
   font-family: var(--font-title);
+  font-weight: 100;
   color: var(--off-white);
   text-align: center;
   color: var(--off-white);

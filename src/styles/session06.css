@@ -15,6 +15,8 @@
   font-size: var(--size-xl);
   font-family: var(--font-title);
   font-weight: 50;
+  color: var(--roxo);
+  width: 80%;
   padding: 1rem;
 }
 
@@ -72,7 +74,8 @@
 @media (min-width: 768px) {
   .title-session06 {
     font-size: var(--size-3xl);
-    width: 80%;
+    color: var(--roxo);
+    width: 60%;
   }
   
   .list-session06 {
@@ -103,21 +106,25 @@
   .title-session06 {
     font-size: var(--size-xl);
     color: var(--palha);
+    width: 80%;
   }
 
   .list-session06 {
-    height: 45vh;
+    height: 75vh;
     width: 100%;
     padding: 2rem 1rem;
     border: none;
     justify-content: center;
     border: 2px solid var(--off-white);
+    gap: 2rem;
   }
 
   .list-session06 li {
-    font-size: var(--size-xs);
-    gap: 0px;
-    color: var(--palha);
+    font-size: var(--size-sm);
+    gap: 8px;
+    color: var(--off-white);
+    background-color: var(--green);
+    border-radius: 10px;
   }
 
   .container-session06-text p, .btn-session06 {

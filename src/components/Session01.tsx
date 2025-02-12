@@ -1,5 +1,6 @@
 import "../styles/session01.css";
 import WarningAmberIcon from "@mui/icons-material/WarningAmber";
+import logoMentoria from "../assets/NEAP-Mentoria-Logo-2.png"
 
 const Session01 = () => {
   const textList = [
@@ -17,6 +18,7 @@ const Session01 = () => {
   return (
     <div className="card-session01">
       <div className="content-session01">
+      <img src={logoMentoria} alt="logo" className="logo-session01" />
         <h1>
           Sua atuação na Atenção Primária pode ser mais segura e resolutiva!
         </h1>

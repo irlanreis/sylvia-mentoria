@@ -36,6 +36,8 @@ Html, body {
   --size-2xl: max(2.8rem, 3.2vw);
   --size-3xl: max(3.2rem, 3.6vw);
   --size-4xl: max(3.8rem, 4.2vw);
+  --size-5xl: max(4.2rem, 4.4vw);
+  --size-6xl: max(5.8rem, 6.2vw);
 
   --font-title: 'Trevino';
   --font-text: 'Poppins', sans-serif;

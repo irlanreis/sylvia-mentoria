@@ -69,15 +69,16 @@
   color: white;
   font-size: var(--size-md);
   font-weight: bold;
+  font-family: var(--font-text);
   padding: 16px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  width: 100%;
-  max-width: 200px;
   margin: 15px 0;
   text-decoration: none;
   text-align: center;
+  width: 40%;
+  max-width: 300px
 }
 
 .button-session01:hover {

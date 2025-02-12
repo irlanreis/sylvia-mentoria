@@ -37,8 +37,8 @@
 
   .text-session05Main-container p {
     text-align: center;
-    font-size: var(--size-lg);
-    max-width: 68%;
+    font-size: var(--size-md);
+    max-width: 50%;
   }
 
   .btn-session05Main {
@@ -46,12 +46,15 @@
     color: var(--off-white);
     font-size: var(--size-md);
     font-family: var(--font-text);
+    text-align: center;
+    text-decoration: none;
     font-weight: bold;
     padding: 1rem 2rem;
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
-    max-width: 30%;
+    width: 40%;
+    max-width: 300px;
   }
 
   .destaque {

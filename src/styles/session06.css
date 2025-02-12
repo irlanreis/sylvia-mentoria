@@ -63,8 +63,8 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  width: 100%;
-  max-width: 200px;
+  width: 40%;
+  max-width: 300px;
   margin: 15px 0;
   text-decoration: none;
   font-family: var(--font-text);

@@ -36,7 +36,7 @@ const Session08 = () => {
           href="https://pay.hub.la/GC1ClKWRPjcY9HfX4aik"
           target="_blank"
         >
-          Inscrever-se agora
+          INSCREVER-SE AGORA MESMO!
         </a>
       </div>
     </div>

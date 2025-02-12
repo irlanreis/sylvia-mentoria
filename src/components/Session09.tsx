@@ -54,7 +54,7 @@ const Session09 = () => {
         href="https://pay.hub.la/GC1ClKWRPjcY9HfX4aik"
         target="_blank"
       >
-        Quero participar
+        QUERO PARTICIPAR
       </a>
     </div>
   );

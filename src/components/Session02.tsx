@@ -53,7 +53,7 @@ const MentoriaNEAP = () => {
         ))}
       </ul>
       <a className="button-session01" href="https://pay.hub.la/GC1ClKWRPjcY9HfX4aik" target={"_blank"}>
-        comprar agora
+        COMPRAR AGORA
       </a>
     </div>
   );

@@ -106,25 +106,24 @@
   .title-session06 {
     font-size: var(--size-xl);
     color: var(--palha);
-    width: 80%;
+    width: 100%;
   }
 
   .list-session06 {
-    height: 75vh;
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 1rem;
     border: none;
     justify-content: center;
     border: 2px solid var(--off-white);
-    gap: 2rem;
+    max-height: 620px;
   }
 
   .list-session06 li {
     font-size: var(--size-sm);
     gap: 8px;
     color: var(--off-white);
-    background-color: var(--green);
     border-radius: 10px;
+    padding: 16px;
   }
 
   .container-session06-text p, .btn-session06 {

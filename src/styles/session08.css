@@ -73,10 +73,6 @@
   text-decoration: none;
 }
 
-.cta-session08:hover {
-  background-color: var(--green);
-}
-
 @media (min-width: 768px) {
   .container-session08 {
     gap: 4rem;

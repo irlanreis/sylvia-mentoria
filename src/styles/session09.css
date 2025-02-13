@@ -5,7 +5,10 @@
   flex-direction: column;
   gap: 1.5rem;
   padding: 4rem 0;
-  background-image: url("../assets/backgrounds-mentoria/2.jpg");
+  background-image: url("../assets/backgrounds-mentoria/2.webp");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
 }
 
 .title-session09 {

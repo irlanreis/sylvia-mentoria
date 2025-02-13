@@ -115,8 +115,10 @@
 
 @media (min-width: 1024px) {
   .container-session08  {
-    background-image: url("../assets/backgrounds-mentoria/6.jpg");
+    background-image: url("../assets/backgrounds-mentoria/6.webp");
     background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
     align-items: flex-start;
     background-position: top;
   }

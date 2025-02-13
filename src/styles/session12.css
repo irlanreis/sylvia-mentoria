@@ -46,7 +46,10 @@
 
 @media (min-width: 768px) {
   .container-session12 {
-    background-image: url("../assets/backgrounds-mentoria/5.jpg");
+    background-image: url("../assets/backgrounds-mentoria/5.webp");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
     padding: 4rem 0;
     gap: 40px;
   }

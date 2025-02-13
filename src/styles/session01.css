@@ -1,8 +1,9 @@
 @import "./Global.css";
 
 .card-session01 {
-  background-image: url("../assets/session01.jpg");
+  background: url("../assets/session01.webp");
   background-size: cover;
+  object-fit: cover;
   background-position: top;
   background-repeat: no-repeat;
   display: flex;
@@ -136,7 +137,10 @@
 
 @media (min-width: 1024px) {
   .card-session01 {
-    background-image: url("../assets/backgrounds-mentoria/1.jpg");
+    background: url("../assets/backgrounds-mentoria/1.webp");
+    object-fit: cover;
+    background-size: cover;
+    background-position: right;
     color: var(--off-white);
     display: flex;
     justify-content: center;
@@ -151,7 +155,7 @@
   }
   
   .content-session01 {
-    gap: 0;
+    gap: 2rem;
     width: 80%
   }
   
@@ -160,7 +164,7 @@
     font-weight: normal;
     color: var(--off-white);
     line-height: 1;
-    max-width: 80%;
+    max-width: 75%;
   }
   
   .content-session01 p {
@@ -168,7 +172,7 @@
     color: var(--off-white);
     margin-bottom: 30px;
     line-height: 1.2;
-    max-width: 500px;
+    max-width: 600px;
   }
   
   .warnings-session01 {
